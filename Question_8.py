@@ -7,8 +7,7 @@ def print_even(num):
     even_num = []
     for i in num:
         if i % 2 == 0:
-            even_num.append(i)
-            print(even_num)
+            print(i)
 
 
 print_even([1, 2, 3, 4, 5, 6])
